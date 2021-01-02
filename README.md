@@ -13,16 +13,23 @@ The `UInt4` library has a comprehensive test suite.
 
 Internally, the bits of the `UInt4` are represented in an `Int`.  This means that 64-bits of memory (or 32-bits on 32-bit systems) are used for each `UInt4`.
 
-## Installation
+## Getting started
 
-### Carthage
-Simply add the requirement to your Cartfile:
-`github "markrenaud/UInt4"`
+### Swift Package Manager
 
-## Usage
+With the swift package manager, add the library to your dependencies
+```swift
+dependencies: [
+.package(url: "https://github.com/brampf/uint4.git", from: "1.0.0")
+]
+```
 
-Import the library.
-`import UInt4`
+then simply add the `UInt4` import to your target
+
+```swift
+.target(name: "YourApp", dependencies: ["UInt4"])
+```
+
 
 Use as any other unsigned integer type in Swift.
 
