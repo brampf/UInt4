@@ -1,5 +1,13 @@
 #  UInt4 
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
+<p align="center">
+<a href="LICENSE.md">
+<img src="https://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT License">
+</a>
+<a href="https://swift.org">
+<img src="https://img.shields.io/badge/swift-5.3-brightgreen.svg" alt="Swift 5.3">
+</a>
+</p>
 
 UInt4 is a Swift library that represents a 4-bit unsigned data type.
 
